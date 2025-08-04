@@ -1,0 +1,6 @@
+nome = input('Qual seu nome?')
+idade = int (input('Qual sua idade?'))
+peso = float(input('Qual seu peso?'))
+altura= float(input('Qual sua altura'))
+imc = float((peso / (altura * altura)))
+print('Olá! {}, sua idade é {}anos, seu peso é {}Kg, sua altura é {}, seu IMC é {}' .format(nome, idade, peso, altura, imc))

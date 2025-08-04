@@ -1,0 +1,5 @@
+n = int(input('Digite um número inteiro: '))
+d = n ** 2
+t = pow(n,3)
+r = n ** (1/2)
+print('O dobro de {} é {} \nO triplo de {} é {} \nA raiz quadrade de {} é {:.2f}' .format(n, d, n, t, n, r))
